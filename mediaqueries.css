@@ -1,0 +1,57 @@
+@media only screen and (max-width:950px) {
+    main{
+        margin: 4vh;
+    }
+    main section{
+        margin-top: 3vh;
+    }
+    
+}
+@media only screen and (max-width:702px) {
+    body{
+        /* background: greenyellow; */
+    }
+    main{
+        margin: 3vh;
+    }
+    
+}
+@media only screen and (max-width:550px){
+    p{
+    }
+    main div.flex section{
+        margin-top: 3vh;
+        text-align: center;
+    }
+    .margin-top{
+        margin-top: 10vh;
+        text-align: center;
+        font-weight: normal;
+    }
+    h2{
+        margin: 1vw;
+        padding: 1vw;
+    }
+    main div.info{
+        margin: 2vh 0;
+    }
+    main div.flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #my-Image{
+        width: 50vw;
+    }
+    main div section a img {
+        width: 9vw;
+        height: 9vw;
+    }
+    .info-img {
+        width: 70vw;
+    }
+    section a img:hover {
+        width: 10vw;
+        height: 10vw;
+        transition-duration: 200ms;
+    }
+}

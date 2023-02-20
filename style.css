@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 150px;
+    background: rgb(255, 217, 135);
+    /* color: white; */
+    font-family: sans-serif;
+    font-weight: bolder;
+    /* background-image: url(./images/alex-lvrs-Md6_qA-BMis-unsplash.jpg); */
+    background: url(./BGs/wallpapersden.com_simple-night_1280x800.jpg), gainsboro;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+
+/* ------Navbar CSS--------- */
+header {
+    margin: 0 0 10px 0;
+    padding: 0 7%;
+    text-align: center;
+    background-color: aliceblue;
+    /* border: solid 1px blue; */
+    box-shadow: gray 0px 0.5px 10px 1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+}
+
+
+#logo {
+    /* font-family: Arial, sans-serif; */
+    font-size: 200%;
+    font-weight: normal;
+    color: black;
+    margin: 10px;
+    /* padding: 10px; */
+    display: inline-block;
+}
+
+.LIs {
+    margin: 10px;
+    /* padding: 10px; */
+    list-style: none;
+    display: inline-block;
+}
+
+.Links {
+    /* margin: 7px; */
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+.Links:hover {
+    /* color:deepskyblue; */
+    color: white;
+    background-color: blueviolet;
+    border-radius: 25px;
+    transition-duration: 0.025s;
+    /* text-decoration: underline; */
+    /* position:relative; */
+    bottom: 4px;
+    border-radius: 20px;
+    /* background-color: rgb(206, 202, 202); */
+    transition-property: background, position;
+    transition-duration: 0.8s;
+}
+
+.Links:active {
+    color: red;
+}
+
+
+#header {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 #im {
+    font-size: 25px;
+}
+
+/* ------main-body CSS--------- */
+main {
+    margin: 10vh;
+}
+
+.flex {
+    /* max-width: 80%; */
+    padding: 20px auto;
+    margin: 20px auto 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right {
+    margin: 5px;
+    padding: 5px;
+}
+
+.left {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.myImage {
+    border-radius: 220px;
+}
+
+#myName {
+    color: white;
+    font-size: 2.5rem;
+}
+
+#caption span {
+    font-size: 1.5rem;
+}
+
+section h2 span {
+    color: rgb(255, 167, 2)
+}
+
+.head {
+    color: white;
+    font-size: 25px;
+}
+
+#button {
+    width: 100px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(97, 97, 248);
+    color: white;
+    box-shadow: blueviolet 1px 3px 4px;
+}
+
+#button:hover {
+    position: relative;
+    bottom: 1px;
+    background-color: blueviolet;
+}
+
+section a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    margin: auto 5px;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+#git {
+    border-radius: 16px;
+}
+
+section a img:hover {
+    width: 30px;
+    transition-duration: 200ms;
+}
+
+
+/* .caption2{
+    color: rgb(111, 0, 185);
+}
+#spanCaption{
+    color: rgb(255, 4, 121);
+} */
+
+
+
+/* gradient effects on fonts */
+#a {
+    color: rgb(111, 0, 185);
+}
+
+#b {
+    color: rgb(111, 0, 185);
+}
+
+#c {
+    color: rgb(111, 0, 185);
+}
+
+#d {
+    color: rgb(255, 4, 121);
+}
+
+#e {
+    color: rgb(255, 4, 121);
+}
+
+#f {
+    color: rgb(255, 4, 121);
+}
+
+/* about me -----------------*/
+#about,
+#education {
+    min-width: 950px;
+    max-width: 75vw;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about {
+    margin-top: 10%;
+    background-color: cornsilk;
+}
+
+#education {
+    text-align: center;
+    padding: 30px;
+    background-color: cornsilk;
+}
+
+#education .left,
+#education .right {
+    padding: auto 20px;
+
+}
+
+
+footer {
+    padding-top: 5px;
+}
+
+footer,
+footer a,
+footer span {
+    font-size: 13px;
+    font-weight: normal;
+    /* color: white; */
+    background-color: gainsboro;
+}
+
+footer h3 {
+    font-size: 15px;
+    margin: 1px 5px;
+    padding: auto 15px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+footer div.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
